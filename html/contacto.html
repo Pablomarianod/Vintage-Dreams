@@ -14,7 +14,6 @@
 
 <body>
 <!-- Inicio Navbar -->
-
 <nav class="navbar navbar-expand-lg navegador">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html"> <img src="../src/icons/logo.png" alt="logo-navbar"> </a>
@@ -36,24 +35,17 @@
         <li class="nav-item">
           <a class="nav-link active botonNavbar" href="about.html">ABOUT</a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link active botonNavbar" href="contacto.html">CONTACT</a>
-
         <li class="nav-item">
           <a class="nav-link active botonNavbar" href="login.html">LOGIN</a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link active botonNavbar" href="Error404.html">FAVORITOS</a>
         </li>
-
         <li class="nav-item">
           <a class="navbar-brand botonCarrito" href="Error404.html"><img src="../src/images/cart.png" alt="carrito" width="30px"></a>
         </li>
-
-
-
       </ul>
 
     </div>
@@ -75,29 +67,50 @@
             <div class="form-group">
               <label for="name" class="col-sm-2 pt-3 control-label">Nombre</label>
               <div class="col-lg-10 col-xs-8">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Ingresa tu nombre"
-                  required />
+                <input type="text" 
+                class="form-control" 
+                id="name" 
+                name="name" 
+                placeholder="Ingresa tu nombre"
+                maxlength="20"
+                minlength="3"
+                required />
               </div>
             </div>
             <div class="form-group">
               <label for="email" class="col-lg-12 pt-3 control-label">Correo electrónico</label>
               <div class="col-lg-10">
-                <input type="email" class="form-control" id="email" name="email"
-                  placeholder="Ingresa tu correo electrónico" required />
+                <input type="email" 
+                class="form-control" 
+                id="email" name="email"
+                placeholder="Ingresa tu correo electrónico" 
+                maxlength="50"
+                minlength="4"
+                required />
               </div>
             </div>
             <div class="form-group">
               <label for="subject" class="pt-3 control-label">Asunto</label>
               <div class="col-lg-10">
-                <input type="text" class="form-control" id="subject" name="subject" placeholder="Ingresa el asunto"
-                  required />
+                <input type="text" 
+                class="form-control" 
+                id="subject" 
+                maxlength="420"
+                minlength="1"
+                name="subject" 
+                placeholder="Ingresa el asunto"
+                required />
               </div>
             </div>
             <div class="form-group">
               <label for="message" class="col-sm-2 pt-3 control-label">Mensaje</label>
               <div class="col-lg-10">
-                <textarea class="form-control" rows="5" id="message" name="message" placeholder="Ingresa tu mensaje"
-                  required></textarea>
+                <textarea class="form-control" 
+                rows="5" 
+                id="message" 
+                name="message" 
+                placeholder="Ingresa tu mensaje"
+                required></textarea>
               </div>
             </div>
             <div class="form-group">

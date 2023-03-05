@@ -25,7 +25,14 @@ body { background-color: seashell;
 }
 
 .buscador{
-    width: 340px;
+    min-width: 350px;
+    width: auto;
+}
+@media  (min-width: 240px){
+    .buscador {
+        width: 100px;
+    }
+    
 }
 
 .botonNavbar:hover{
