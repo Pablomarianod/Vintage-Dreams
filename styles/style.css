@@ -25,10 +25,8 @@ body { background-color: seashell;
 }
 
 .buscador{
-    justify-content: center;
+    width: 340px;
 }
-
-
 
 .botonNavbar:hover{
 
@@ -45,12 +43,6 @@ body { background-color: seashell;
     width: 100%;
     padding: 45px;
 
-}
-
-.redes{
-    padding: 3px;
-    display: flex;
-    flex-direction: row;
 }
 
 
