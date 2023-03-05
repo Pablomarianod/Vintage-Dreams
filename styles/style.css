@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
     color: #000000;
@@ -19,13 +20,15 @@ body { background-color: seashell;
 }
 
 .navegador{
-    background-color: #E73700;
+    background-color: #E8D7A4;
     
 }
 
 .buscador{
-    width: 500px;
+    justify-content: center;
 }
+
+
 
 .botonNavbar:hover{
 
@@ -33,6 +36,7 @@ body { background-color: seashell;
     border-radius: 10px;
 
 }
+
 
 .footer{
     background-color: rgb(80, 75, 75);
@@ -42,6 +46,14 @@ body { background-color: seashell;
     padding: 45px;
 
 }
+
+.redes{
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 .derechos{
     background-color: white;
@@ -247,6 +259,13 @@ del {
 .banner-category{
     height: 40hv;
     background-image:  url(../src/1.jpg), linear-gradient(rgb(163, 135, 135), rgb(175, 194, 8));
+    background-size: cover;
+    background-position: 69%;
+}
+
+.banner-category-sofa{
+    height: 40hv;
+    background-image:  url(../src/sofa-banner.jpeg), linear-gradient(rgb(163, 135, 135), rgb(175, 194, 8));
     background-size: cover;
     background-position: 69%;
 }
