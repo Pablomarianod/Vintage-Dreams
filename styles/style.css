@@ -24,14 +24,32 @@ body { background-color: seashell;
     
 }
 
+.navbarButtons{
+     display:flex;
+     gap: 25px;
+     margin-left: 25px;
+}
+
 .buscador{
-    width: 340px;
+    width: 35vw;
+}
+
+.botonNavbar{
+     border-radius: 10px;
+     padding: 8px 20px;
+
+}
+
+.navbarButtons a:hover{
+    color: #fff;
+
 }
 
 .botonNavbar:hover{
 
-    background-color: #fbd600;
-    border-radius: 10px;
+    background-color: #E73700;
+    color: #fff;
+
 
 }
 
