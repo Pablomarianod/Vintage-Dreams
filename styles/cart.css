@@ -1,6 +1,6 @@
 
 
-.imagen {
+.imagen { 
     padding:2rem;
   height: 10rem;
   display: flex;
@@ -34,7 +34,14 @@
  .fila{
     height: 10rem;
  }
- @media
+ .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .test {
+    height: 5rem;
+ }
 /* 
 .tarjeta2 > p {
     position: absolute;
