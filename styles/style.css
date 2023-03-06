@@ -27,6 +27,7 @@ body { background-color: seashell;
 .navbarButtons{
      display:flex;
      gap: 25px;
+     align-items: center;
      margin-left: 25px;
 }
 
@@ -34,20 +35,17 @@ body { background-color: seashell;
     min-width: 350px;
     width: auto;
 }
-
-
 .navbarButtons a:hover{
     color: #fff;
-
 }
-
+.botonNavbar{
+    border-radius: 10px;
+    
+}
 .botonNavbar:hover{
-
     background-color: #E73700;
     color: #fff;
 }
-
-
 .footer{
     background-color: rgb(80, 75, 75);
     color: white;
@@ -209,6 +207,14 @@ del {
     width: 85%;
     height:auto ;
     object-fit:contain;
+}
+.botonCarrito {
+     background-color: #c8b98e;
+     padding: 8px;
+     border-radius: 15px;
+}
+.botonCarrito:hover{
+    background-color: #E73700;
 }
 
 .section-banner{
