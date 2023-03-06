@@ -28,7 +28,7 @@ body { background-color: seashell;
 .navbarButtons{
      display:flex;
      gap: 25px;
-     align-items: center;
+     align-items: centerS;
      margin-left: 25px;
      
 }
@@ -39,7 +39,7 @@ body { background-color: seashell;
 }
 @media screen and (max-width: 600px,) {
     .buscador {
-        width: 60vw;
+        width: vw;
     }
     
 }
