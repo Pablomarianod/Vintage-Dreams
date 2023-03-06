@@ -31,14 +31,10 @@ body { background-color: seashell;
 }
 
 .buscador{
-    width: 35vw;
+    min-width: 350px;
+    width: auto;
 }
 
-.botonNavbar{
-     border-radius: 10px;
-     padding: 8px 20px;
-
-}
 
 .navbarButtons a:hover{
     color: #fff;
@@ -49,8 +45,6 @@ body { background-color: seashell;
 
     background-color: #E73700;
     color: #fff;
-
-
 }
 
 
@@ -60,10 +54,23 @@ body { background-color: seashell;
     margin-top: 50px;
     width: 100%;
     padding: 45px;
-
 }
-
-
+.column-redes ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content:first baseline  ;
+}
+.logo-footer img {
+    margin-top:1.3rem ;
+}
+.footer-links  {
+    color: #aeaeae;
+    transition: all 100ms ease;
+}
+.footer-links:hover {
+    color: #fff;
+}
 
 .derechos{
     background-color: white;
@@ -320,6 +327,10 @@ del {
     color: #fbd600;
     
 }
+
+.boton-color:hover{background: color;}
+
+
 
 /* Productos */
 
