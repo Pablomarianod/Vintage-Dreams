@@ -29,8 +29,10 @@ body { background-color: seashell;
      display:flex;
      gap: 25px;
      align-items: center;
-     margin-left: 25px;
-     
+     margin-left: 25px;     
+}
+.botonNavbar {
+    border-radius: 10px;
 }
 
 .buscador{
@@ -43,10 +45,9 @@ body { background-color: seashell;
     }
     
 }
-.navbarButtons a:hover{
-    border-radius: 5px;
 
-}
+
+
 .botonNavbar:hover{
     background-color: rgb(244, 85, 85);
     
@@ -221,12 +222,12 @@ del {
     object-fit:contain;
 }
 .botonCarrito {
-     background-color: #c8b98e;
+    transition: all 100ms ease;
      padding: 8px;
      border-radius: 15px;
 }
 .botonCarrito:hover{
-    background-color: #E73700;
+    background-color: rgb(244, 85, 85);
 }
 
 .section-banner{
@@ -355,7 +356,4 @@ del {
         
     }
    
-
-/* Productos */
-
-/* Cart */
+ }
