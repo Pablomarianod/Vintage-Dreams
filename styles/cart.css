@@ -1,47 +1,59 @@
-
-
-.imagen { 
-    padding:2rem;
-  height: 10rem;
+.card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
- h3{
-    font-weight: 600;
- }
-.derecha {
-    display: flex; align-items:
-     center;
-     justify-content: center;
+
+th { padding-top: 2rem;
+  font-size: 18px;
+  color: #e73700;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  
 }
- .imagen > img {
-    width: 4rem;
-    border-radius: 10%;
- }
- .description{
-    display: flex;
-    align-items: center;
- }
- .precio{
-    display: flex;
-    align-items: center;
- }
- .boton{
-    display: flex;
-    align-items: center;
- }
- .fila{
-    height: 10rem;
- }
- .card {
+.card{ height: auto;
+    width: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
- }
- .test {
-    height: 5rem;
- }
+    text-align: center;
+}
+.card > img {
+    max-width: 18rem;
+}
+ul{
+    list-style: none;
+    padding-left: 0rem
+    
+}
+
+tbody tr {
+  border-bottom: 1px solid #000000; o;
+}
+
+tbody tr td {
+  padding: 30px;
+}
+
+.card-image {
+  overflow: hidden;
+  width: 100px;
+}
+.card > a {
+  
+} .seguircomprando{
+    padding: 2rem;
+}
+.comprar{
+    padding: 2rem;
+}
+/* Cart */
+
+@media screen and (max-width: 768px) {
+  .section-banner {
+    display: none;
+  }
+}
 /* 
 .tarjeta2 > p {
     position: absolute;
@@ -101,5 +113,3 @@
     top: 13vh;
     left: 80vh; 
 } */
-
-

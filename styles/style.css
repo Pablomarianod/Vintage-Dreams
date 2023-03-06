@@ -29,6 +29,7 @@ body { background-color: seashell;
      gap: 25px;
      align-items: center;
      margin-left: 25px;
+     
 }
 
 .buscador{
@@ -36,16 +37,19 @@ body { background-color: seashell;
     width: auto;
 }
 .navbarButtons a:hover{
-    color: #fff;
-}
-.botonNavbar{
-    border-radius: 10px;
-    
+    border-radius: 5px;
+
 }
 .botonNavbar:hover{
-    background-color: #E73700;
-    color: #fff;
+    background-color: rgb(244, 85, 85);
+    
 }
+
+.navbarLogin{
+    background-color: #E8D7A4;
+}
+
+
 .footer{
     background-color: rgb(80, 75, 75);
     color: white;
@@ -341,36 +345,3 @@ del {
 /* Productos */
 
 /* Cart */
-.cart-tabla {
-    padding-top: 70px;
-    padding-bottom: 90px;
-}
-
-th{
-    font-size: 18px;
-            color: #E73700;
-            font-weight: 600;
-            text-transform: uppercase;
-            padding-bottom: 20px;
-}
-
-tbody tr{
-    border-bottom: 1px solid #000000;
-}
-
-tbody tr td{
-    padding: 30px;
-}
-
-.card-image{
-    overflow: hidden;
-    width: 100px;
-
-}
-/* Cart */
-
-@media screen and (max-width: 768px) {
-    .section-banner {
-      display: none;
-    }
-  }
