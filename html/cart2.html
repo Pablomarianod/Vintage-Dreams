@@ -24,10 +24,16 @@
     />
   </head>
   <body>
+
+    <!-- Inicio Navbar -->
+    
+    
   <!-- Inicio Navbar -->
 
+
+  
   <nav class="navbar navbar-expand-lg navegador">
-    <div class="container-fluid">
+    <div class="container-fluid ">
       <a class="navbar-brand" href="index.html"> <img src="../src/icons/logo.png" alt="logo-navbar"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,16 +41,12 @@
       </button>
 
       <form class="d-flex" role="search">
-        <input class="form-control me-2 buscador" type="search" placeholder="Buscar" aria-label="Search">
+        <input class="form-control me-2 " type="search" placeholder="Buscar" aria-label="Search">
         <button class="btn btn-outline-danger" type="submit">Buscar</button>
       </form>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbarButtons">
-
-
-
-
           <li class="nav-item">
             <a class="nav-link active botonNavbar" href="../html/about.html">SOBRE NOSOTROS</a>
           </li>
@@ -64,89 +66,135 @@
             <a class="navbar-brand botonCarrito" href="../html/cart2.html"><img src="../src/images/cart.png"
                 alt="carrito" width="30px"></a>
           </li>
-
-
-
         </ul>
 
       </div>
     </div>
   </nav>
 
+
   <!-- Fin Navbar -->
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="cart-tabla">
-              <table style="width: 100%">
-                <thead style="border-bottom: 1px solid #000000">
-                  <tr>
-                    <th>Productos</th>
-                    <th>Precio</th>
-                    <th>Cantidad</th>
-                    <th>Total</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="card-producto">
-                      <img
-                        src="../src/images/categories/tecnologia/tecno 1.png"
-                        class="card-image"
-                        alt=""
-                      />
-                    </td>
-                    <td>$500</td>
-                    <td>1</td>
-                    <td>$500</td>
-                    <td>
-                      <i class="bi bi-x-circle" style="font-size: 30px"></i>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="card-producto">
-                      <img
-                        src="../src/images/categories/tecnologia/tecno 1.png"
-                        class="card-image"
-                        alt=""
-                      />
-                    </td>
-                    <td>$500</td>
-                    <td>1</td>
-                    <td>$500</td>
-                    <td>
-                      <i class="bi bi-x-circle" style="font-size: 30px"></i>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="card-producto">
-                      <img
-                        src="../src/images/categories/tecnologia/tecno 1.png"
-                        class="card-image"
-                        alt=""
-                      />
-                    </td>
-                    <td>$500</td>
-                    <td>1</td>
-                    <td>$500</td>
-                    <td>
-                      <i class="bi bi-x-circle" style="font-size: 30px"></i>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+    
+      <div class="row">
+
+      <div class="col-lg-9">
+        <div class="tabla col col-lg-9 col-md-12 col-sm-10 table">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="cart-tabla">
+                <table style="width: 100%">
+                  <thead style="border-bottom: 1px solid #000000">
+                    <tr>
+                      <th>Productos</th>
+                      <th>Precio</th>
+                      <th>Cant</th>
+                      <th>Total</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="card-producto">
+                        <img
+                          src="../src/images/categories/tecnologia/tecno 1.png"
+                          class="card-image"
+                          alt="Foto de telefiono antiguo"
+                        />
+                      </td>
+                      <td data-label="Precio" >$250</td>
+                      <td data-label="Cantidad" >2</td>
+                      <td data-label="Total" >$500</td>
+                      <td data-label="Quitar" >
+                        <i class="bi bi-x-circle" style="font-size: 30px"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="card-producto">
+                        <img
+                          src="../src/images/categories/muebles/mueble 1.jpg"
+                          class="card-image"
+                          alt="Foto de mueble antiguo"
+                        />
+                      </td>
+                      <td data-label="Precio" >$750</td>
+                      <td data-label="Cantidad" >1</td>
+                      <td data-label="Total" >$750</td>
+                      <td data-label="Quitar" >
+                        <i class="bi bi-x-circle" style="font-size: 30px"></i>
+                      </td >
+                    </tr>
+                    <tr>
+                      <td class="card-producto">
+                        <img
+                          src="../src/images/vintage-chair.jpg"
+                          class="card-image"
+                          alt="Foto de silla antigua"
+                        />
+                      </td>
+                      <td data-label="Precio" >$235</td>
+                      <td data-label="Cantidad" >3</td>
+                      <td data-label="Total" >$705</td>
+                      <td data-label="Quitar" >
+                        <i class="bi bi-x-circle" style="font-size: 30px"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="card-producto">
+                        <img
+                          src="../src/images/old-watch.jpg"
+                          class="card-image"
+                          alt="Foto de reloj"
+                        />
+                      </td>
+                      <td data-label="Precio" >$125</td>
+                      <td data-label="Cantidad" >4</td>
+                      <td data-label="Total" >$500</td>
+                      <td data-label="Quitar" >
+                        <i class="bi bi-x-circle" style="font-size: 30px"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
+        
+          
       </div>
+        
+          <div class="col">
+            <div class="contenedor-carrito">
+            <div class="card  card-content">
+              <img class="card-img-top" src="../src/images/cart.png" alt="Foto de carrito de compras">
+              <div class="card-body">
+                <h4 class="card-title comprar">Total : $2455</h4> <a href="../html/404.html" class="buy-button">Comprar</a>
+                <div class="card-text">
+                
+                  <p class="card-dicount">  </p>
+                  
+                </div>
+                <div class=" ">
+                  <a href="../html/index.html" class="buy-button">seguir comprando</a>  
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        
+
+      
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+
 
   <!-- Inicio Footer -->
 
@@ -213,5 +261,6 @@
   </footer>
 
   <!-- Fin Footer -->
+
   </body>
 </html>

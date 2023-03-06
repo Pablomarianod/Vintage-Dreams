@@ -24,6 +24,7 @@ body { background-color: seashell;
     
 }
 
+
 .navbarButtons{
      display:flex;
      gap: 25px;
@@ -33,8 +34,14 @@ body { background-color: seashell;
 }
 
 .buscador{
-    min-width: 350px;
-    width: auto;
+    width:30vw
+    
+}
+@media screen and (max-width: 600px,) {
+    .buscador {
+        width: 100vw;
+    }
+    
 }
 .navbarButtons a:hover{
     border-radius: 5px;
@@ -52,10 +59,11 @@ body { background-color: seashell;
 
 .footer{
     background-color: rgb(80, 75, 75);
-    color: white;
+    color: #e73700;
     margin-top: 50px;
     width: 100%;
     padding: 45px;
+    
 }
 .column-redes ul{
     display: flex;
@@ -273,6 +281,7 @@ del {
 .categories-card{
     margin-top: 1rem;    
 }
+ 
 
 
 
@@ -345,36 +354,3 @@ del {
 /* Productos */
 
 /* Cart */
-.cart-tabla {
-    padding-top: 70px;
-    padding-bottom: 90px;
-}
-
-th{
-    font-size: 18px;
-            color: #E73700;
-            font-weight: 600;
-            text-transform: uppercase;
-            padding-bottom: 20px;
-}
-
-tbody tr{
-    border-bottom: 1px solid #000000;
-}
-
-tbody tr td{
-    padding: 30px;
-}
-
-.card-image{
-    overflow: hidden;
-    width: 100px;
-
-}
-/* Cart */
-
-@media screen and (max-width: 768px) {
-    .section-banner {
-      display: none;
-    }
-  }
