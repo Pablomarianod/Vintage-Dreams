@@ -24,6 +24,7 @@ body { background-color: seashell;
     
 }
 
+
 .navbarButtons{
      display:flex;
      gap: 25px;
@@ -33,8 +34,14 @@ body { background-color: seashell;
 }
 
 .buscador{
-    min-width: 350px;
-    width: auto;
+    width:20vw
+    
+}
+@media screen and (max-width: 600px,) {
+    .buscador {
+        width: 60vw;
+    }
+    
 }
 .navbarButtons a:hover{
     border-radius: 5px;
@@ -273,7 +280,10 @@ del {
 .categories-card{
     margin-top: 1rem;    
 }
-
+ 
+.busqueda{
+    width: 100%;
+}
 
 
 /* Productos */
