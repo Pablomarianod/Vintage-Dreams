@@ -45,6 +45,10 @@ body { background-color: seashell;
     color: #fff;
 }
 
+.navbarLogin{
+    background-color: #E8D7A4;
+}
+
 
 .footer{
     background-color: rgb(80, 75, 75);
