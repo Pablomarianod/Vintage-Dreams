@@ -28,18 +28,18 @@ body { background-color: seashell;
 .navbarButtons{
      display:flex;
      gap: 25px;
-     align-items: centerS;
+     align-items: center;
      margin-left: 25px;
      
 }
 
 .buscador{
-    width:20vw
+    width:30vw
     
 }
 @media screen and (max-width: 600px,) {
     .buscador {
-        width: vw;
+        width: 100vw;
     }
     
 }
@@ -282,9 +282,7 @@ del {
     margin-top: 1rem;    
 }
  
-.busqueda{
-    width: 100%;
-}
+
 
 
 /* Productos */
