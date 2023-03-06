@@ -67,9 +67,11 @@ body {
 }
 .contact-card-content p {
     color: #3e3e3e;
+    margin-right: 100px;
 }
 .contact-card-content h5{
     margin-bottom: 20px;
+    
 }
 
 .contact-cards {
@@ -83,4 +85,6 @@ body {
     height: 90%;
     margin: 1rem;
 }
-
+.contact-card-content{
+    padding: ;
+}
