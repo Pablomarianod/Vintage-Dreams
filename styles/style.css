@@ -29,7 +29,7 @@ body { background-color: seashell;
      display:flex;
      gap: 25px;
      align-items: center;
-     margin-left: 25px;     
+     margin-left: 25px;
 }
 .botonNavbar {
     border-radius: 10px;
@@ -355,5 +355,5 @@ del {
         width: 90vw; 
         
     }
-   
+
  }
