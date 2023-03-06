@@ -32,7 +32,7 @@
 
 
   
-<nav class="navbar navbar-expand-lg navegador">
+<!-- <nav class="navbar navbar-expand-lg navegador">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html"> <img src="../src/icons/logo.png" alt="logo-navbar"> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -70,7 +70,7 @@
 
     </div>
   </div>
-</nav>
+</nav> -->
 
     </div>
   </nav>
@@ -78,8 +78,11 @@
 
   <!-- Fin Navbar -->
     <main>
-      <div class="row border-0 g-0">
-        <div class="tabla col col-lg-9 col-md-12 col-sm-10">
+    
+      <div class="row">
+
+      <div class="col-lg-9">
+        <div class="tabla col col-lg-9 col-md-12 col-sm-10 table">
           <div class="row">
             <div class="col-lg-12">
               <div class="cart-tabla">
@@ -102,10 +105,10 @@
                           alt="Foto de telefiono antiguo"
                         />
                       </td>
-                      <td>$250</td>
-                      <td>2</td>
-                      <td>$500</td>
-                      <td>
+                      <td data-label="Precio" >$250</td>
+                      <td data-label="Cantidad" >2</td>
+                      <td data-label="Total" >$500</td>
+                      <td data-label="Quitar" >
                         <i class="bi bi-x-circle" style="font-size: 30px"></i>
                       </td>
                     </tr>
@@ -117,12 +120,12 @@
                           alt="Foto de mueble antiguo"
                         />
                       </td>
-                      <td>$900</td>
-                      <td>1</td>
-                      <td>$900</td>
-                      <td>
+                      <td data-label="Precio" >$750</td>
+                      <td data-label="Cantidad" >1</td>
+                      <td data-label="Total" >$750</td>
+                      <td data-label="Quitar" >
                         <i class="bi bi-x-circle" style="font-size: 30px"></i>
-                      </td>
+                      </td >
                     </tr>
                     <tr>
                       <td class="card-producto">
@@ -132,10 +135,10 @@
                           alt="Foto de silla antigua"
                         />
                       </td>
-                      <td>$300</td>
-                      <td>3</td>
-                      <td>$900</td>
-                      <td>
+                      <td data-label="Precio" >$235</td>
+                      <td data-label="Cantidad" >3</td>
+                      <td data-label="Total" >$705</td>
+                      <td data-label="Quitar" >
                         <i class="bi bi-x-circle" style="font-size: 30px"></i>
                       </td>
                     </tr>
@@ -147,10 +150,10 @@
                           alt="Foto de reloj"
                         />
                       </td>
-                      <td>$125</td>
-                      <td>1</td>
-                      <td>$125</td>
-                      <td>
+                      <td data-label="Precio" >$125</td>
+                      <td data-label="Cantidad" >4</td>
+                      <td data-label="Total" >$500</td>
+                      <td data-label="Quitar" >
                         <i class="bi bi-x-circle" style="font-size: 30px"></i>
                       </td>
                     </tr>
@@ -160,24 +163,33 @@
             </div>
           </div>
         </div>
-        <div class="card-container col-12 col-lg-3 col-md-12 col-sm-12">
-           <div class="card  card-content">
-            <img class="card-img-top" src="../src/images/cart.png" alt="Foto de carrito de compras">
-            <div class="card-body">
-              <h4 class="card-title comprar">Total : $2425</h4> <a href="../html/404.html" class="buy-button">Comprar</a>
-              <div class="card-text">
-              
-                <p class="card-dicount">  </p>
-                <div class="seguircomprando ">
-                  <a href="../html/404.html" class="buy-button">seguir comprando</a>  
+        
+          
+      </div>
+        
+          <div class="col">
+            <div class="contenedor-carrito">
+            <div class="card  card-content">
+              <img class="card-img-top" src="../src/images/cart.png" alt="Foto de carrito de compras">
+              <div class="card-body">
+                <h4 class="card-title comprar">Total : $2455</h4> <a href="../html/404.html" class="buy-button">Comprar</a>
+                <div class="card-text">
+                
+                  <p class="card-dicount">  </p>
+                  
+                </div>
+                <div class=" ">
+                  <a href="../html/index.html" class="buy-button">seguir comprando</a>  
                 </div>
               </div>
-
+              </div>
+            </div>
             </div>
           </div>
           </div>
         </div>
-      </div> 
+        
+
       
     </main>
     <script

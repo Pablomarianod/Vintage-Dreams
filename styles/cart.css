@@ -1,34 +1,28 @@
-.card-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-th { padding-top: 2rem;
+th {
+  padding-top: 2rem;
   font-size: 18px;
   color: #e73700;
   font-weight: 600;
   text-transform: uppercase;
   padding-bottom: 20px;
-  
 }
-.card{ height: auto;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.card {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 .card > img {
-    max-width: 18rem;
+  max-width: 18rem;
 }
-ul{
-    list-style: none;
-    padding-left: 0rem
-    
+ul {
+  list-style: none;
+  padding-left: 0rem;
 }
 
 tbody tr {
-  border-bottom: 1px solid #000000; o;
+  border-bottom: 1px solid #000000;
 }
 
 tbody tr td {
@@ -39,77 +33,66 @@ tbody tr td {
   overflow: hidden;
   width: 100px;
 }
-.card > a {
-  
-} .seguircomprando{
-    padding: 2rem;
-}
-.comprar{
-    padding: 2rem;
-}
-/* Cart */
 
-@media screen and (max-width: 768px) {
-  .section-banner {
+.seguircomprando {
+  padding: 2rem;
+  border: 1rem;
+}
+.comprar {
+  padding: 2rem;
+}
+.contenedor-carrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+.seguircomprando{
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 3px solid #252525;
+    color: #252525;
+    border-radius: 25px;
+    transition: all 200ms ease;
+}
+.seguircomprando:hover{
+    color: #fff;
+    background-color: #252525;
+}
+.buy-button:hover{
+    color: #fff;
+    background-color: #252525;
+}
+@media screen and (max-width: 600px) {
+  .tabla {
+    border: 0px;
+  }
+  .tabla caption {
+    font-size: 22px;
+  }
+  .tabla thead {
     display: none;
   }
+  .tabla tr {
+    margin-bottom: 8px;
+    border-bottom: 4px solid #ddd;
+  }
+  .tabla th,
+  .tabla td {
+    font-size: 12px;
+  }
+  .tabla td {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+  }
+  .tabla td:last-child {
+    border-bottom: 0px;
+  }
+  .tabla td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+  }
 }
-/* 
-.tarjeta2 > p {
-    position: absolute;
-    top: 33vh;
-    left: 23vh;
-    
-}
-.tarjeta2 > h3 {
-    position: absolute;
-    top: 38vh;
-    left: 23vh;
-}
-.tarjeta3 > p {
-    position: absolute;
-    top: 54vh;
-    left: 23vh;
-    
-}
-.tarjeta3 > h3 {
-    position: absolute;
-    top: 59vh;
-    left: 23vh;
-}
-
-.tarjeta4 > p {
-    position: absolute;
-    top: 75vh;
-    left: 23vh;
-    
-}
-.tarjeta4 > h3 {
-    position: absolute;
-    top: 80vh;
-    left: 23vh;
-}
-
-.boton1 {
-    position: absolute;
-    top: 33vh;
-    left: 80vh; 
-}
-
-.boton2 {
-    position: absolute;
-    top: 54vh;
-    left: 80vh; 
-}
-
-.boton3 {
-    position: absolute;
-    top: 75vh;
-    left: 80vh; 
-}
-
-.boton4 {
-    position: absolute;
-    top: 13vh;
-    left: 80vh; 
-} */
