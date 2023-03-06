@@ -37,7 +37,7 @@ body { background-color: seashell;
     width:30vw
     
 }
-@media screen and (max-width: 600px,) {
+@media screen and (max-width: 600px) {
     .buscador {
         width: 100vw;
     }
@@ -349,7 +349,12 @@ del {
 
 .boton-color:hover{background: color;}
 
-
+ @media screen and (max-width: 600px) {
+    iframe {
+        width: 90vw; 
+        
+    }
+   
 
 /* Productos */
 
