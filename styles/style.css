@@ -28,6 +28,7 @@ body { background-color: seashell;
      display:flex;
      gap: 25px;
      margin-left: 25px;
+     
 }
 
 .buscador{
@@ -38,6 +39,7 @@ body { background-color: seashell;
 
 .navbarButtons a:hover{
     color: #fff;
+    border-radius: 5px;
 
 }
 
@@ -45,6 +47,10 @@ body { background-color: seashell;
 
     background-color: #E73700;
     color: #fff;
+}
+
+.navbarLogin{
+    background-color: #E8D7A4;
 }
 
 
