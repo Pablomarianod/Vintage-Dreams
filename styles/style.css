@@ -37,12 +37,12 @@ body { background-color: seashell;
     width: auto;
 }
 .navbarButtons a:hover{
-    color: #fff;
+    border-radius: 5px;
 
 }
 .botonNavbar:hover{
-    background-color: #E73700;
-    color: #fff;
+    background-color: rgb(244, 85, 85);
+    
 }
 
 .navbarLogin{
