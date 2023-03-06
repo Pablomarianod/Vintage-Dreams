@@ -5,6 +5,7 @@ th {
   font-weight: 600;
   text-transform: uppercase;
   padding-bottom: 20px;
+  padding-left: 25px;
 }
 .card {
   height: auto;
@@ -26,7 +27,7 @@ tbody tr {
 }
 
 tbody tr td {
-  padding: 30px;
+  padding: 2px;
 }
 
 .card-image {
@@ -95,4 +96,10 @@ tbody tr td {
     text-transform: uppercase;
     float: left;
   }
+}
+.desc > p {
+  padding-top: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 20px;
 }
